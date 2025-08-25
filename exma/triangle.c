@@ -2,7 +2,7 @@
 
 int main()
 {
-    int one,second;
+    int one,second,finla;
 
     printf("enter the first angle : ");
     scanf("%d",&one);
@@ -10,7 +10,9 @@ int main()
     printf("enter the second angle : ");
     scanf("%d",&second);
 
-    
+    finla=180-one-second;
+
+    printf("finla ans : %d",finla);
 
     return 0;
 }
